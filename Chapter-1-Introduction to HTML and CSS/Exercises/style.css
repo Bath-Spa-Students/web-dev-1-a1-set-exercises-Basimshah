@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #555;
+
+    /* Add some styling for the overall page layout */
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+/* Update the styling for headings and text */
+h1, h2 {
+    color: #ff6600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+   
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*styling the container layouts of the page and the images included*/
+.recipe_info, .recipe {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
+.rasmalai-img{
+    border-radius: 10px;  
+    display: block; /* Ensures the image doesn't have any space below it */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+.ingredients-img{
+    border-radius: 10px;  
+    display: block; /* Ensures the image doesn't have any space below it */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*styling the recipe steps table*/
+table {
+    font-size: 10px;
+}
+
+td{
+    border: 2px solid grey;
+    padding: 12px;
+}
