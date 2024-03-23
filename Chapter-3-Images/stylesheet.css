@@ -1,0 +1,21 @@
+#A { /*created an id that would give the image a grey filter*/
+    filter: grayscale(100%);
+}
+
+#B { /*created an id that would give the image a blur filter*/
+    filter: blur(5px);
+}
+
+#C { /*created an id that would give the image a brightening filter*/
+    filter: brightness(250%);
+}
+h1 {
+    text-align: center
+}
+td{
+    width: 500px;
+}
+body {
+    margin-left: 10px;
+    margin-right: 0px;
+}
