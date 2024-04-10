@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Cost Calculator</title>
+    <!--attaching the external stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--calling the classes that allign the calculator to the center and add border to it-->
+    <div class="container rectangular_box">
+        <h1>Petrol Calculator</h1>
+        <div class="fields">
+            <div>
+                <!--input field to enter the cost-->
+                <label for="petrolCost">Cost of Petrol per liter:</label>
+                <input type="number" id="petrolCost" placeholder="Enter cost (default: 1.72)" value="1.72">
+            </div>
+            <div>
+                <!--input field to enter the liters-->
+                <label for="litersPurchased">Number of Liters Purchased:</label>
+                <input type="number" id="litersPurchased" placeholder="Enter liters (default: 0)" value="0">
+            </div>
+        </div>
+        <!--calling the button id from the js for the calculation-->
+        <button id="calculateButton">Calculate Total Cost</button>
+            <p id="totalCost"></p>
+    </div>
+    <!--attaching js-->
+    <script src="script.js"></script>
+</body>
+</html>

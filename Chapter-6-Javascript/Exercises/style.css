@@ -1,0 +1,65 @@
+/*general styling for the entire body*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5fcff;
+    color: #311432;
+}
+/*positions the calculator in the center*/
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/*adding border to the calculator*/
+.rectangular_box{
+    border: 2px solid #2e5984;
+    border-radius: 10px;
+    padding: 20px 80px 20px 80px;
+    background-color: #fbd9ff; /* Light blue background color */
+}
+
+/*styling the input fields and setting them to numbers field*/
+input[type="number"],
+button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 16px;
+    border: 2px solid #2e5984;
+    border-radius: 5px;
+    background-color: #f5fcff;
+    color: #2e5984;
+    transition: all 0.3s ease;
+}
+
+input[type="number"]:focus,
+button:focus {
+    outline: none;
+    border-color: #1c385f;
+}
+
+/* styling the button*/
+button {
+    background-color: #7a4988;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+/*adding hover effect to the button*/
+button:hover {
+    background-color: #710193;
+}
+
+/*styling the text "calculate total cost"*/
+#totalCost {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2e5984;
+}
+.fields{
+    display: flex;
+    flex-direction: row;
+}
