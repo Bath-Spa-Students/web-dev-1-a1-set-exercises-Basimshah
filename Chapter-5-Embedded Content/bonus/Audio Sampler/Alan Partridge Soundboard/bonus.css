@@ -1,0 +1,43 @@
+#wrapper { /*avoids the content from misaligning in case the browser screen is zoomed in or out*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 1525px;
+}
+
+body{/*adding the background image*/
+    background-image: url('alan\ partridge\ bg.jpg'); 
+}
+
+h2 { /*styling the h2 element (applying a bordered background etc...)*/
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    padding: 1em;
+    padding: 2px 0px 2px 0px;
+    margin-left: 20px;
+    margin-right:25px;
+    text-align: center;
+    color: red;
+    background-color: white;
+    font-family: Arial;
+    font-weight: 300;
+}
+input { /*styling the input element*/
+    border: 10px solid black;
+    border-radius: 20px;
+    padding-top: 10px;
+    background-color: white;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom:25px;
+    margin-left:15px;
+    margin-right:10px;
+    height: 170px;
+    width: 474px;
+    font-weight:600;
+}
+input:hover{ /*setting the text color and background color of the input on hovering*/
+    color:white;
+    background-color:red;
+  
+}

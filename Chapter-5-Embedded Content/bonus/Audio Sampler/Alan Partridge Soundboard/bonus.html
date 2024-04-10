@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="bonus.css" /> <!--adding external stylesheet-->
+   
+</head>
+<body>
+    <div id="wrapper"> <!--calling an id to avoid the content from misaligning in case th browser in zoomed in or out-->
+      
+        <script src="bonus.js" type="text/javascript"></script> <!--attaching the external javascript-->
+
+        <h2>Audio Sampler</h2>
+        <table>
+            <tr>
+                <td>
+                    <input type="button" value="10.&#13;&#10;&#13;&#10; Ah Ha &#13;&#10;&#13;&#10;1.4" onclick="play('audio1')"><!--using a different element for each audio sample (ex:audio1, audio2 ...)-->
+                    <audio id="audio1" src="Audio/ah-ha.mp3"></audio>
+                </td>
+                <td>
+                    <input type="button" value="11.&#13;&#10;&#13;&#10; Dan &#13;&#10;&#13;&#10;0.5" onclick="play('audio2')">
+                    <audio id="audio2" src="Audio/dan.mp3"></audio>
+                </td>
+                <td>
+                    <input type="button" value="12.&#13;&#10;&#13;&#10; Back of the net &#13;&#10;&#13;&#10;1.02" onclick="play('audio3')">
+                    <audio id="audio3" src="Audio/back-of-the-net.mp3"></audio>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="13.&#13;&#10;&#13;&#10; Bang out of order &#13;&#10;&#13;&#10;1.38" onclick="play('audio4')">
+                    <audio id="audio4" src="Audio/bangoutoforder.mp3"></audio>
+                </td>
+                <td>
+                    <input type="button" value="14.&#13;&#10;&#13;&#10; Email of the evening &#13;&#10;&#13;&#10;1.48" onclick="play('audio5')">
+                    <audio id="audio5" src="Audio/emailoftheevening.mp3"></audio>
+                </td>
+                <td>
+                    <input type="button" value="15.&#13;&#10;&#13;&#10; Hello Partridge &#13;&#10;&#13;&#10;1.91" onclick="play('audio6')">
+                    <audio id="audio6" src="Audio/hellopartridge.mp3"></audio>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="16.&#13;&#10;&#13;&#10; I ate a scotch egg &#13;&#10;&#13;&#10;1.49" onclick="play('audio7')">
+                    <audio id="audio7" src="Audio/iateascotchegg.mp3"></audio>
+                </td>
+                <td>
+                    <input type="button" value="17.&#13;&#10;&#13;&#10; I'm confused &#13;&#10;&#13;&#10;1.07" onclick="play('audio8')">
+                    <audio id="audio8" src="Audio/imconfused.mp3"></audio>
+                </td>
+                <td>
+                    <input type="button" value="18.&#13;&#10;&#13;&#10; Ah Ha &#13;&#10;&#13;&#10;2.25" onclick="play('audio9')">
+                    <audio id="audio9" src="Audio/ah-ha.mp3"></audio>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
