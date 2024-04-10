@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper { /* Wrapper for alignment */
+    margin: 0 auto;
+    width: 1500px;
+}
+
+table { /* Table margins */
+    margin: 5px 0;
+    margin-left: 59px;
+}
+
+.menu { /* Header part styling */
+    background-color: #17072B;
+    width: 100%;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-family: "Tahoma";
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.menu a { /* Link styling */
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+}
+
+.main { /* Main text styling */
+    font-size: 21.5px;
+}
+
+.white { /* Font color */
+    color: white;
+}
+
+h2 { /* h2 element styling */
+    font-size: 36px;
+}
+
+footer { /* Footer styling */
+    background-color: #8c15e9;
+    text-align: center;
+    padding: 4px 0;
+    font-size: 21.5px;
+    width: 100%;
+}
+
+.lineUp_bg { /* Line up background */
+    background-color: #172D66;
+    margin-bottom: 100px;
+}
+
+.align { /* Margin alignment */
+    margin-left: 30px;
+}
+
+.image {
+    margin: 20px;
+}
