@@ -1,0 +1,87 @@
+    /* Add some styling for the overall page layout */
+
+a{
+    color: #ff0000;
+    font-size: 12px;
+    margin: 0 45px;
+}
+
+.header-style{
+    margin-bottom: 30px;
+    background-color: #f7e8fa;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;   
+    padding: 0 40px;
+}
+
+.margin-zero{
+    margin:0;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000000 0%, #000066 100%);
+    color: #555;
+
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+/* Update the styling for headings and text */
+
+.text-style{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text-size1{
+    font-size: 2.5em;
+}
+
+.text-size2{
+    font-size: 1.8em;
+}
+
+
+ul {
+    margin-left: 30px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*styling the container layouts of the page*/
+.recipe_info, .alignment {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*styling the table*/
+table {
+    font-size: 10px;
+}
+
+td{
+    border: 2px solid grey;
+    padding: 12px;
+}
