@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="bonus.css" /> <!--attaching external stylesheet-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+    <div id="wrapper">
+        <table>
+            <tr>
+                <td><pre class="red"><i class='fas fa-fish'></i> PHYCHEDELIC FISH</pre></td><!--"red" class for the background to the stated text, class 'fas fa-fish' for the fish icon-->
+                <td></td>
+                <td><pre>       </pre></td>
+                <td colspan="3" class="bank">Sample Bank 2</td><!--adding a class for the styling of the heading Sample Bank 1 (background color, padding etc)-->
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <div class="type-here">
+                        <input class="type" type="text" id="text-to-speech" placeholder="Type Here" /><!--calling a class into the input elemnt that would style the padding, border, width ect of the input fiels-->
+                    </div>
+                    <br /><br /><br /><br /><br /><br /><br />
+                </td>
+                <td>
+                    <div class="outer green">
+                        <!--calling a class 'outer' to style the outer white border of the "say" button, green class for the button to turn creen on hovering-->
+                        <button class="say" type="button"
+                                onclick="textToAudio()">
+                            <!--calling the class "say" that styles the inner black part of the button-->
+                            Say it
+                        </button>
+                    </div>
+                    <br /><br /><br /><br />
+                </td>
+                <td><pre>    </pre></td>
+                <td>
+                    <input type="button" value="10.&#13;&#10;&#13;&#10; ah ha &#13;&#10;&#13;&#10;1.4" onclick="play('audio10')"><!--calling the play() function from js-->
+                    <audio id="audio10" src="sounds/ah ha.mp3"></audio><!--calling the audio variable from the js to play the stated audio-->
+                </td>
+                <td>
+                    <input type="button" value="11.&#13;&#10;&#13;&#10; Dan &#13;&#10;&#13;&#10;0.5" onclick="play('audio11')">
+                    <audio id="audio11" src="sounds/dan.mp3"></audio>
+                </td>
+                <td>
+                    <input type="button" value="12.&#13;&#10;&#13;&#10; Back of the net &#13;&#10;&#13;&#10;1.02" onclick="play('audio12')">
+                    <audio id="audio12" src="sounds/back of the net.mp3"></audio>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <pre><!--used pre tag for desired specific spacing and alignment-->
+                        
+
+                </pre>
+                </td>
+                <td><pre>           </pre></td><!--used pre tag for desired specific spacing and alignment-->
+                <td>
+                    <input type="button" value="13.&#13;&#10;&#13;&#10; Bang out of order &#13;&#10;&#13;&#10;1.38" onclick="play('audio13')">
+                    <audio id="audio13" src="sounds/bang out of order.mp3"></audio>
+                </td>
+                <td>
+                    <input type="button" value="14.&#13;&#10;&#13;&#10; Jurassic park &#13;&#10;&#13;&#10;1.48" onclick="play('audio14')">
+                    <audio id="audio14" src="sounds/jurassic park.mp3"></audio>
+                </td>
+                <td>
+                    <input type="button" value="15.&#13;&#10;&#13;&#10; Smell my cheese &#13;&#10;&#13;&#10;1.91" onclick="play('audio15')">
+                    <audio id="audio15" src="sounds/smell my cheese.mp3"></audio>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="button" value="16.&#13;&#10;&#13;&#10; Goal &#13;&#10;&#13;&#10;1.49" onclick="play('audio16')">
+                    <audio id="audio16" src="sounds/goal.mp3"></audio>
+                </td>
+                <td>
+                    <input type="button" value="17.&#13;&#10;&#13;&#10; Kiss my face &#13;&#10;&#13;&#10;1.07" onclick="play('audio17')">
+                    <audio id="audio17" src="sounds/kiss my face.mp3"></audio>
+                </td>
+                <td>
+                    <input type="button" value="18.&#13;&#10;&#13;&#10; Hello Partridge &#13;&#10;&#13;&#10;2.25" onclick="play('audio18')">
+                    <audio id="audio18" src="sounds/hello partridge.mp3" p></audio>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="align">
+                    <!--using class align to float the content of this column to right-->
+                    <a href="HtmlPage1.html">&#129128;</a> &nbsp;&nbsp;<!--used html code for the left arrow that is a link to another html page(next (3rd/last) page of soundboard)-->
+                    <a href="HtmlPage3.html">&#129130;</a><!--used html code for the right arrow that is a link to another html page(next page of soundboard)-->
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="bonus.js" type="text/javascript"></script> <!--attaching external js-->
+</body>
+</html>

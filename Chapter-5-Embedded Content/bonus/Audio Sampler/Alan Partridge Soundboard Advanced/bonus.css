@@ -1,0 +1,107 @@
+#wrapper { /*avoids the content from misaligning in case the browser screen is zoomed in or out*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 1495px;
+}
+body {
+    background-image: url('alan\ partridge\ bg.jpg'); /*setting the background image*/
+}
+ 
+.bank { /*setting the style of "sample bank" heading*/
+    background-color: white;
+    padding: 5px 0px 5px 0px;
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.type { /*setting the style of "type here" box*/
+    padding: 20px 380px 130px 20px;
+    color: grey;
+    border-radius: 20px;
+
+    border: none;
+    height: 80px;
+    width: 160px;
+}
+
+.outer { /*setting the style of "say it" outer white border*/
+    background-color: white;
+    border-radius: 5px;
+    width:135px;
+    height:100px;
+    padding: 5px;
+    padding-top: 9px;
+}
+.say { /*setting the style of "say it" inner black part*/
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    height: 95px;
+    width: 130px;
+    font-size: 28px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+.align { /*aligning the navigation narrow column to right*/
+    float: right;
+}
+.red { /*setting the style (background color, padding etc) of the fish icon region in red*/
+    background-color: red;
+    padding: 5px 0px 5px 0px;
+    color: white;
+    font-size: 16px;
+    display: inline;
+    font-family: Arial;
+}
+input { /*styling the input element (border, radius, background color etc)*/
+    border: 10px solid black;
+    border-radius: 20px;
+    padding-top: 5px;
+    background-color: white;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 150px;
+    width: 220px;
+}
+input:hover { /*styling the hovering effect of the input button (the sound samples)*/
+    color: white;
+    background-color: red;
+}
+
+.type-here input:hover { /*setting the hoveing color of the "type here" box*/
+    color: black;
+    background-color: #F0F0F0;
+}
+.green button:hover{ /*setting the hovering color of the "say it" button*/
+    background-color:green;
+}
+
+a { /*styling the links*/
+    background: white;
+    text-decoration: none; /* Remove that ugly underlining */
+    border-radius: 45%;
+    display: block;
+    height: 80px;
+    width: 80px;
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    display: inline;
+}
+
+table{ /*settting the table margins*/
+    margin-top:30px;
+}
+
+td{
+    padding-left:0px;
+    padding-right:0px;
+}
